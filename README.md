@@ -1,6 +1,6 @@
 # Setup
 
-## Manual: 
+## Manual
 https://docs.google.com/document/d/1Gs24XTqONks8DP6Mf7h71holqbeg6_2CaLNxvO8nHJk/edit
 
 ## Install NVM to manage Node

@@ -8,38 +8,35 @@ let firebaseConfig
 switch (process.env.REACT_APP_ENV) {
   case 'PROD':
     firebaseConfig = {
-      apiKey: 'AIzaSyCcgzkgm7DJkNLTrBk-vDQgeTZw7bTwdn8',
-      authDomain: 'ds-blog-376905.firebaseapp.com',
-      projectId: 'ds-blog-376905',
-      storageBucket: 'ds-blog-376905.appspot.com',
-      messagingSenderId: '1046661353798',
-      appId: '1:1046661353798:web:e6771cdb184606a1861547',
-      measurementId: 'G-V1G11MYNRB',
-    }
+      apiKey: "AIzaSyDZaRO-s-X-mWnzekSTvwyXpcdoRhG20vg",
+      authDomain: "pwc-blog-prod-394806.firebaseapp.com",
+      projectId: "pwc-blog-prod-394806",
+      storageBucket: "pwc-blog-prod-394806.appspot.com",
+      messagingSenderId: "735888875657",
+      appId: "1:735888875657:web:54949880fee7e94fc32658"
+    };
     break
 
   case 'QA':
     firebaseConfig = {
-      apiKey: 'AIzaSyCG-Lvza6UMVVSW_gZ_oHQFMQa3sssDgdk',
-      authDomain: 'ds-blog-qa.firebaseapp.com',
-      projectId: 'ds-blog-qa',
-      storageBucket: 'ds-blog-qa.appspot.com',
-      messagingSenderId: '631919673252',
-      appId: '1:631919673252:web:3b5bd30368a67c23ba4b31',
-      measurementId: 'G-59FZFJ0980',
-    }
+      apiKey: "AIzaSyCwsR_QUkMHWoSA2cHaFutgjVnm1rrrcNU",
+      authDomain: "pwc-blog-qa-394806.firebaseapp.com",
+      projectId: "pwc-blog-qa-394806",
+      storageBucket: "pwc-blog-qa-394806.appspot.com",
+      messagingSenderId: "621990839487",
+      appId: "1:621990839487:web:a428bce9dc509a7489720a"
+    };
     break
 
   default:
     firebaseConfig = {
-      apiKey: 'AIzaSyCHfU9yLnEnLeKKokIQ9sUGI8Cr9mLYXgE',
-      authDomain: 'ds-blog-dev.firebaseapp.com',
-      projectId: 'ds-blog-dev',
-      storageBucket: 'ds-blog-dev.appspot.com',
-      messagingSenderId: '545518666660',
-      appId: '1:545518666660:web:85badd3f2024480bc07731',
-      measurementId: 'G-BB9M09710P',
-    }
+      apiKey: "AIzaSyDAIOUeooTsdu363EBrhK5VM91_RVV6Ylc",
+      authDomain: "pwc-blog-dev-394805.firebaseapp.com",
+      projectId: "pwc-blog-dev-394805",
+      storageBucket: "pwc-blog-dev-394805.appspot.com",
+      messagingSenderId: "590991621157",
+      appId: "1:590991621157:web:055412bac80b923a4093cc"
+    };
     break
 }
 
